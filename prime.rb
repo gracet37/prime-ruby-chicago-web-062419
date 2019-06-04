@@ -1,12 +1,17 @@
 # Add  code here!
 
-def prime?(num)
-false if num < 2
-  (2...num).each do |factor|
-    if (num % factor).zero? 
-      return false
+def prime?(x)
+  if x == 1
+    return true 
+  elsif x < 1
+    return false
+  else
+  for y in 2..(x-1)
+    if (x % y) == 0
+      return false 
     end
-  end
-  
-  true # after checking all numbers and not receiving false
+  end 
+end
+
+   true
 end

@@ -5,4 +5,6 @@ def prime?(n)
    if "#{n} % #{d}" != 0
     return true
    end
+ else
+   false
   end

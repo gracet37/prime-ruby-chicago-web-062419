@@ -5,7 +5,7 @@ def prime?(n)
    if "#{n} % #{d}" != 0
     return true
  elsif "#{n} % #{d}" == 0
-   false
+   return false
  elsif n == -1
  return false
   end

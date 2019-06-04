@@ -7,6 +7,6 @@ def prime?(n)
  elsif "#{n} % #{d}" == 0
    false
  elsif n < 0 
- false
+ true
   end
 end
